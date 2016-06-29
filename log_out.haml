@@ -1,0 +1,6 @@
+/*詳細は後々*/
+%h1 Log Out
+%form{:action => '/session', :method => 'post'}
+	%fieldset
+		%input{:type => "hidden", :name => '_method', :value => 'delete'}
+		%input{:type => "submit", :value => "Log Out"}

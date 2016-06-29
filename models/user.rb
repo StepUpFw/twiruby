@@ -18,7 +18,7 @@ require 'bcrypt'
 		validates :email, unqueness: true
 		validates :email, format: { with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, on: :create } #[format] 正規表現パターンに一致しているか
 		validates :email, presence: true
-		validates :password_hash, confirmation: true #2つのフィールドが等しい
+		validates :password_hash, confirmation: true #２つのフィールドが等しい
 		validates :password_hash, presence: true
 		validates :password_salt, presence: true
 
@@ -39,4 +39,4 @@ require 'bcrypt'
 				nil
 			end
 		end
-	end
+	end-
