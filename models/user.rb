@@ -39,4 +39,4 @@ require 'bcrypt'
 				nil
 			end
 		end
-	end-
+	end
